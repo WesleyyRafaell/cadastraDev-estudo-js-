@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.containerTodo{
+    width: 400px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.containerTodo .containerInput{
+    min-height: 170px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #f79f8fbd;
+    border-radius: 16.9px;
+}
+
+.containerTodo .containerInput form{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTodo .containerInput form input{
+    border: 1px solid #b9b9b9;
+    margin-bottom: 30px;
+    height: 50px;
+    border-radius: 15.7px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.containerTodo .containerInput form button{
+    height: 40px;
+    font-size: 18.6px;
+    background: #cb47ff;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.containerTodo .containerTarefas{
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.containerTodo .containerTarefas .dev{
+    box-shadow: 3.4px 5.7px 14.5px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.containerTodo .containerTarefas p{
+    background: #CB47FF;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17.7px;
+}
